@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import MagneticButton from "../components/tempolabs/magbutton";
+import MagneticButton from "../components/magbutton";
 
 function Lost() {
   return (

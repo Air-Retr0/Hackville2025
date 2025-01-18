@@ -1,14 +1,15 @@
-import Navbar from "../components/navbar"
-import CardGrid from "../components/tempolabs/cardgrid"
+import { ColorChart } from "@/components/chart";
+import Navbar from "@/components/navbar";
+import Sidebar from "@/components/tempolabs/sidebar";
 
 function Home() {
-
   return (
     <>
       <Navbar />
-      <CardGrid />
+      <Sidebar />
+      <ColorChart />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
