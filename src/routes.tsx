@@ -3,15 +3,17 @@ import Academic from './pages/academics';
 import Scheduling from './pages/schedule';
 import Resources from './pages/resources';
 import Home from './pages/home';
+import Lost from './pages/lost';
 
 const AppRoutes = () => {
   return (
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/academics' element={<Academic />} />
-        <Route path='/academics' element={<Scheduling />} />
-        <Route path='/academics' element={<Resources />} />
+        <Route path='/academic' element={<Academic />} />
+        <Route path='/scheduling' element={<Scheduling />} />
+        <Route path='/resources' element={<Resources />} />
+        <Route path='*' element={<Lost />} />
       </Routes>
     </Router>
   )

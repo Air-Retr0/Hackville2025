@@ -1,7 +1,9 @@
+import Navbar from "../components/navbar"
 
 const Academic = () => {
   return (
     <>
+      <Navbar />
     </>
   )
 }
