@@ -1,0 +1,60 @@
+"filename", "language", "JSON with Comments", "TypeScript", "JSON", "JavaScript", "HTML", "TypeScript JSX", "XML", "Markdown", "CSS", "Python", "comment", "blank", "total"
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\Backend\ML\academic.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 69, 14, 26, 109
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\Backend\ML\general.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 10, 19, 79
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\Backend\Todo.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 0, 46, 0, 8, 54
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 11, 51
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\components.json", "JSON", 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\eslint.config.js", "JavaScript", 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 0, 2, 29
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\index.html", "HTML", 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 1, 14
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\package-lock.json", "JSON", 0, 0, 5377, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5378
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\package.json", "JSON", 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 0, 1, 57
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\postcss.config.js", "JavaScript", 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\public\tabs.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 2, 19
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\public\vite.svg", "XML", 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\App.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 4, 11
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\announce.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 31, 0, 0, 0, 0, 0, 3, 34
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\avatar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 1, 2, 20
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\breadcrumbs.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 43, 0, 0, 0, 0, 0, 7, 50
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\calander.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 5, 19
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\cardgrid.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 111, 0, 0, 0, 0, 0, 7, 118
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\carosuel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 3, 29
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\chart.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 82, 0, 0, 0, 0, 0, 5, 87
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\dashboard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\gallery.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 65, 0, 0, 0, 0, 0, 12, 77
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\navbar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 22, 0, 0, 0, 0, 0, 3, 25
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\sections.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 4, 36
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\tempolabs\magbutton.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 0, 10, 66
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\tempolabs\sidebar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 125, 0, 0, 0, 0, 0, 10, 135
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\breadcrumb.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 105, 0, 0, 0, 0, 0, 11, 116
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\button.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 52, 0, 0, 0, 0, 0, 6, 58
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\calendar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 70, 0, 0, 0, 0, 0, 5, 75
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\card.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 68, 0, 0, 0, 0, 0, 9, 77
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\carousel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 30, 261
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\chart.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 326, 0, 0, 0, 0, 2, 36, 364
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\dropdown-menu.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 182, 0, 0, 0, 0, 0, 18, 200
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\input.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 0, 4, 23
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\label.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 5, 25
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\resizable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 6, 44
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\scroll-area.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 42, 0, 0, 0, 0, 0, 5, 47
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\separator.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 4, 30
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\components\ui\tabs.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 47, 0, 0, 0, 0, 0, 7, 54
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\index.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 66, 0, 0, 0, 66
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\lib\utils.ts", "TypeScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\main.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 2, 11
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\pages\academics.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\pages\auth.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 2, 8
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\pages\home.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\pages\lost.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 3, 15
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\pages\resdemics.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 107, 0, 0, 0, 0, 0, 5, 112
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\pages\resexternal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 103, 0, 0, 0, 0, 0, 5, 108
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\pages\resources.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 3, 16
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\pages\schedule.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\routes.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 2, 28
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\vite-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\src\vscode.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 39, 0, 0, 0, 0, 0, 7, 46
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\tailwind.config.js", "JavaScript", 0, 0, 0, 59, 0, 0, 0, 0, 0, 0, 1, 0, 60
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\tsconfig.app.json", "JSON", 0, 0, 34, 0, 0, 0, 0, 0, 0, 0, 2, 0, 36
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\tsconfig.json", "JSON with Comments", 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\tsconfig.node.json", "JSON", 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 2, 3, 25
+"c:\Users\Jahiem\vscode\hackathons\Hackville2025\vite.config.ts", "TypeScript", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 13
+"Total", "-", 19, 16, 5508, 92, 13, 2222, 1, 40, 66, 165, 33, 337, 8512

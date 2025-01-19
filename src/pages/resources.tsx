@@ -8,8 +8,8 @@ const Resources = () => {
     <>
       <Crumbs />
       <Sidebar />
-      <Gallery />
-    </>
+      \        <Gallery />
+      \    </>
   )
 }
 

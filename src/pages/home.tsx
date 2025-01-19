@@ -1,15 +1,19 @@
-import { ColorChart } from "@/components/chart";
-import Navbar from "@/components/navbar";
-import Sidebar from "@/components/tempolabs/sidebar";
+import { Crumbs } from "@/components/breadcrumbs"
+import { Section } from "@/components/sections"
+import Sidebar from "@/components/tempolabs/sidebar"
+import { AIChat } from "@/components/textbox"
 
-function Home() {
+const Home = () => {
   return (
     <>
-      <Navbar />
+      <div className="ml-72">
+        <Crumbs />
+      </div>
       <Sidebar />
-      <ColorChart />
+      <Section />
+      <AIChat />
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home

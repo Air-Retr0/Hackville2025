@@ -1,10 +1,14 @@
-import Navbar from "../components/navbar"
+import Sidebar from "@/components/tempolabs/sidebar"
 import { AcademicCalendar } from "@/components/calander"
+import { Crumbs } from "@/components/breadcrumbs"
 
 const Scheduling = () => {
   return (
     <>
-      <Navbar />
+      <div className="ml-72">
+        <Crumbs />
+      </div>
+      <Sidebar />
       <AcademicCalendar />
     </>
   )

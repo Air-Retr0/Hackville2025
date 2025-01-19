@@ -21,27 +21,29 @@ export function Crumbs() {
   });
 
   return (
-    <Breadcrumb>
-      <BreadcrumbList>
-        <BreadcrumbItem>
-          <BreadcrumbLink href="/">Home</BreadcrumbLink>
-        </BreadcrumbItem>
+    <div className="ml-72">
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/">Home</BreadcrumbLink>
+          </BreadcrumbItem>
 
-        {breadcrumbPaths.map((breadcrumb, index) => (
-          <React.Fragment key={breadcrumb.url}>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              {index === breadcrumbPaths.length - 1 ? (
-                <BreadcrumbPage>{breadcrumb.label}</BreadcrumbPage>
-              ) : (
-                <BreadcrumbLink href={breadcrumb.url}>
-                  {breadcrumb.label}
-                </BreadcrumbLink>
-              )}
-            </BreadcrumbItem>
-          </React.Fragment>
-        ))}
-      </BreadcrumbList>
-    </Breadcrumb>
+          {breadcrumbPaths.map((breadcrumb, index) => (
+            <React.Fragment key={breadcrumb.url}>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                {index === breadcrumbPaths.length - 1 ? (
+                  <BreadcrumbPage>{breadcrumb.label}</BreadcrumbPage>
+                ) : (
+                  <BreadcrumbLink href={breadcrumb.url}>
+                    {breadcrumb.label}
+                  </BreadcrumbLink>
+                )}
+              </BreadcrumbItem>
+            </React.Fragment>
+          ))}
+        </BreadcrumbList>
+      </Breadcrumb>
+    </div>
   );
 }

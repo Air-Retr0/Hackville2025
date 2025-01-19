@@ -2,6 +2,7 @@ import React from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { CiBellOn } from "react-icons/ci";
 import {
   BookOpen,
   Clock,
@@ -11,12 +12,13 @@ import {
   Home,
   Settings,
 } from "lucide-react";
-import Avatar from "../avatar";
+import { Link } from "react-router-dom";
 
 interface MenuItem {
   icon: React.ReactNode;
   label: string;
   count?: number;
+  to?: string;
 }
 
 interface RecentItem {
@@ -34,33 +36,33 @@ interface SidebarProps {
 }
 
 const defaultMenuItems: MenuItem[] = [
-  { icon: <Home className="h-5 w-5" />, label: "Dashboard" },
-  { icon: <BookOpen className="h-5 w-5" />, label: "Courses", count: 5 },
-  { icon: <FileText className="h-5 w-5" />, label: "Assignments", count: 3 },
-  { icon: <Clock className="h-5 w-5" />, label: "Schedule" },
-  { icon: <GraduationCap className="h-5 w-5" />, label: "Grades" },
-  { icon: <Folder className="h-5 w-5" />, label: "Resources" },
-  { icon: <Settings className="h-5 w-5" />, label: "Settings" },
+  { icon: <Home className="h-5 w-5" />, label: "Dashboard", to: "/" },
+  { icon: <BookOpen className="h-5 w-5" />, label: "Courses", count: 5, to: "/academic" },
+  { icon: <FileText className="h-5 w-5" />, label: "Assignments", count: 3, to: "/assignments" },
+  { icon: <Clock className="h-5 w-5" />, label: "Schedule", to: "/scheduling" },
+  { icon: <GraduationCap className="h-5 w-5" />, label: "Grades", to: "/grades" },
+  { icon: <Folder className="h-5 w-5" />, label: "Resources", to: "/resources" },
+  { icon: <Settings className="h-5 w-5" />, label: "Settings", to: "/settings" },
 ];
 
 const defaultRecentItems: RecentItem[] = [
   {
     title: "Week 5 Assignment",
-    course: "Mathematics 101",
+    course: "CSE 111",
     type: "Assignment",
-    timestamp: "2 hours ago",
+    timestamp: "Due Today",
   },
   {
     title: "Course Materials",
-    course: "Physics 201",
-    type: "Resource",
-    timestamp: "4 hours ago",
+    course: "CSE 433",
+    type: "Lecture",
+    timestamp: "Held at 14:30 LSA C",
   },
   {
     title: "Midterm Study Guide",
-    course: "Chemistry 301",
+    course: "CSE 212",
     type: "Document",
-    timestamp: "Yesterday",
+    timestamp: "Posted Yesterday",
   },
 ];
 
@@ -71,34 +73,35 @@ const Sidebar = ({
   onRecentItemClick = () => { },
 }: SidebarProps) => {
   return (
-    <div className="w-[280px] h-full bg-white border-r p-4 flex flex-col min-h-screen">
+    <div className="fixed top-0 left-0 w-[280px] h-screen bg-white border-r p-4 flex flex-col">
       <ScrollArea className="flex-1">
         <div className="space-y-6">
-          {/* Main Menu */}
           <div className="space-y-2">
             {menuItems.map((item, index) => (
-              <Button
-                key={index}
-                variant="ghost"
-                className="w-full justify-start gap-3 h-10"
-                onClick={() => onMenuItemClick(item.label)}
-              >
-                {item.icon}
-                <span className="flex-1 text-left">{item.label}</span>
-                {item.count && (
-                  <span className="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs">
-                    {item.count}
-                  </span>
-                )}
-              </Button>
+              <Link key={index} to={item.to || "#"} className="w-full">
+                <Button
+                  variant="ghost"
+                  className="w-full justify-start gap-3 h-10"
+                  onClick={() => onMenuItemClick(item.label)}
+                >
+                  {item.icon}
+                  <span className="flex-1 text-left">{item.label}</span>
+                  {item.count && (
+                    <span className="bg-primary/10 text-primary rounded-full px-2 py-0.5 text-xs">
+                      {item.count}
+                    </span>
+                  )}
+                </Button>
+              </Link>
             ))}
           </div>
 
           <Separator />
 
-          {/* Recent Items */}
           <div>
-            <h3 className="font-semibold mb-3 px-2">Recent Activity</h3>
+            <h3 className="font-semibold mb-3 px-2 flex items-center">
+              Notifications <CiBellOn className="ml-2 text-xl" />
+            </h3>
             <div className="space-y-2">
               {recentItems.map((item, index) => (
                 <Button
@@ -123,7 +126,6 @@ const Sidebar = ({
           </div>
         </div>
         <div className="mt-44">
-          <Avatar />
         </div>
       </ScrollArea>
     </div>

@@ -15,7 +15,9 @@ export function Resdemics() {
   return (
     <>
       <Sidebar />
-      <Crumbs />
+      <div className="ml-72">
+        <Crumbs />
+      </div>
       <div className="flex items-center justify-center h-screen bg-gray-50">
         <Tabs
           defaultValue="links"
